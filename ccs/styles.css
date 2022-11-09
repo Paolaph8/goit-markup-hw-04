@@ -111,7 +111,6 @@ header .right-links ul {
     align-items: center;
     width: 1600px;
     height: 600px;
-
 }
 
 .box .title {
@@ -172,7 +171,6 @@ header .right-links ul {
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--gray);
-    margin-top: 10px;
 }
 
 .benefits-item {
@@ -256,6 +254,7 @@ header .right-links ul {
 
 figcaption p {
     color: var(--gray);
+    align-content: center;
 }
 
 
@@ -366,7 +365,6 @@ figcaption p {
 }
 
 .footer-text-icon {
-    margin-left: 70px;
     font-weight: 700;
     line-height: calc(16 / 14);
     text-transform: uppercase;
@@ -376,19 +374,17 @@ figcaption p {
 .network-icon {
     margin: 12px 0px 0px 12px;
     fill: currentColor;
-
 }
 
-.footer-social-media {
-    display: flex;
+.social-icon {
     margin-left: 70px;
     margin-bottom: 100px;
     padding: 0px;
 }
 
-.footer-icon {
-    margin-right: 10px;
-
+.footer-social-media-list {
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-social-link {
@@ -398,6 +394,7 @@ figcaption p {
     border-radius: 50%;
     color: #ffffff;
     background-color: #ffffff10;
+    justify-content: space-between;
 }
 
 .footer-social-link:hover,
@@ -405,8 +402,6 @@ figcaption p {
     color: #ffffff;
     background-color: var(--blue);
 }
-
-
 
 .logo-footer {
     font-weight: 700;
@@ -440,7 +435,6 @@ footer p {
 .contact-link-nav:focus {
     color: var(--blue)
 }
-
 
 /* Portafolio */
 .portafolio-button {
@@ -482,15 +476,20 @@ footer p {
     margin-bottom: 82px;
 }
 
+.text-img {
+    Width: 322px;
+    Height: 70px;
+}
+
 .caption {
     margin-top: 20px;
     margin-bottom: 0;
     margin-left: 24px;
 }
 
-.description-our-team {
+.description-card {
     margin-bottom: 20px;
-    margin-left: 24px
+    margin-left: 24px;
 }
 
 .card {
