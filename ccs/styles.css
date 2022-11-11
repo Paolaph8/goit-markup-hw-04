@@ -145,6 +145,7 @@ header .right-links ul {
 
 .benefist {
     display: flex;
+    justify-content: space-between;
     height: 122px;
     margin-top: 95px;
 }
@@ -173,9 +174,7 @@ header .right-links ul {
     color: var(--gray);
 }
 
-.benefits-item {
-    margin-left: 30px;
-}
+
 
 .benefits-icon {
     margin-top: 25px;
@@ -184,6 +183,10 @@ header .right-links ul {
 
 .benefist {
     Height: 251px;
+}
+
+.benefits-item {
+    width: 270PX;
 }
 
 .container .functions {
@@ -205,16 +208,17 @@ header .right-links ul {
 
 .functions-foto {
     display: flex;
+    justify-content: space-between;
 }
 
-.foto {
-    margin-left: 30px;
+
+.our-team {
+    background: var(--clair-gray);
 }
 
 .our-team .container {
-    width: 1600px;
+    width: 1200px;
     height: 708px;
-    background: var(--clair-gray);
     margin-top: 94px
 }
 
@@ -231,9 +235,10 @@ header .right-links ul {
 .img-our-team {
     padding-top: 50px;
     display: flex;
+    justify-content: space-between;
     gap: 30px;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -318,9 +323,6 @@ figcaption p {
     height: 90px;
 }
 
-.client-item:not(:last-child) {
-    margin-right: 30px;
-}
 
 .client-link {
     width: 170px;
@@ -476,20 +478,11 @@ footer p {
     margin-bottom: 82px;
 }
 
-.text-img {
+.text-img { 
     Width: 322px;
     Height: 70px;
-}
-
-.caption {
-    margin-top: 20px;
-    margin-bottom: 0;
-    margin-left: 24px;
-}
-
-.description-card {
-    margin-bottom: 20px;
-    margin-left: 24px;
+    align-content: flex-start;
+    padding-left: 24px;
 }
 
 .card {
